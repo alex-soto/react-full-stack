@@ -13,9 +13,7 @@ export default class Template extends Component {
                 <div>
                     <NavDrawer />
                     <Header>TicTacTuring</Header>
-                    <Main>
-                        {this.props.children}
-                    </Main>
+                    <Main>{this.props.children}</Main>
                 </div>
             </MuiThemeProvider>
         )

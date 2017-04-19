@@ -44,7 +44,7 @@ export default class NavDrawer extends Component {
                             primaryText='Play'    
                         />
                     </Link>
-                    <Link to='/Profile'>
+                    <Link to='/profile'>
                         <MenuItem
                             onTouchTap={this.toggle}
                             primaryText='Profile'    
